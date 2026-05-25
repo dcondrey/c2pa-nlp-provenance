@@ -1,0 +1,27 @@
+{
+  "claim_generator": "WritersLogic/c2patool",
+  "assertions": [
+    {
+      "label": "c2pa.actions",
+      "data": {
+        "actions": [
+          {
+            "action": "c2pa.created",
+            "softwareAgent": "Python 3.11 / LightGBM / scikit-learn",
+            "when": "2026-05-10T00:00:00Z",
+            "description": "Feature extraction: 30 features (vocabulary fingerprints, compression, structural)"
+          }
+        ]
+      }
+    },
+    {
+      "label": "org.writerslogic.experiment.features",
+      "data": {
+        "code_hash": "sha256:46ec38f767b79353c0903a57a7524a5ce679953236b469bd7a2093973eed8f27",
+        "feature_count": 30,
+        "feature_groups": ["basic_statistics", "compression_entropy", "vocabulary_fingerprints", "style_markers"],
+        "ingredient": "m1_data_ingestion"
+      }
+    }
+  ]
+}

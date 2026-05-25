@@ -1,0 +1,29 @@
+{
+  "claim_generator": "WritersLogic/c2patool",
+  "assertions": [
+    {
+      "label": "c2pa.actions",
+      "data": {
+        "actions": [
+          {
+            "action": "c2pa.created",
+            "softwareAgent": "PAN@CLEF 2026 data distribution",
+            "when": "2026-03-15T00:00:00Z",
+            "description": "Official training data ingestion"
+          }
+        ]
+      }
+    },
+    {
+      "label": "org.writerslogic.experiment.data",
+      "data": {
+        "task": "PAN@CLEF 2026 Reasoning Trajectory Detection",
+        "split": "train",
+        "subtask1_samples": 87696,
+        "subtask2_samples": 6079,
+        "combined_hash": "sha256:60f6ef33f2575ed1a27cdc7035549854cfdc3f2b6db3aae6d13da1494e2b7f07",
+        "source": "https://pan.webis.de/clef26/pan26-web/reasoning-trajectory-detection.html"
+      }
+    }
+  ]
+}

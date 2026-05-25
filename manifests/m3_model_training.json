@@ -1,0 +1,39 @@
+{
+  "claim_generator": "WritersLogic/c2patool",
+  "assertions": [
+    {
+      "label": "c2pa.actions",
+      "data": {
+        "actions": [
+          {
+            "action": "c2pa.created",
+            "softwareAgent": "LightGBM 4.1.0 / Python 3.11",
+            "when": "2026-05-12T00:00:00Z",
+            "description": "5-seed LightGBM ensemble training"
+          }
+        ]
+      }
+    },
+    {
+      "label": "org.writerslogic.experiment.training",
+      "data": {
+        "framework": "LightGBM 4.1.0",
+        "config_hash": "sha256:1d5493520cbbcb7531e5c7e393fc452cc1a01b145c027090804b0220957a44dd",
+        "model_hashes": {
+          "seed42": "sha256:ed353e7caa324bd81c11e7a35b40cb758739e8de3991de623a42970889cc9c12",
+          "seed123": "sha256:5ee17c4fbcc2d3d8c9db069dd121f632df182e9b7ef25726148315ddee90b564",
+          "seed456": "sha256:0d4e8e331fd6640e34f3c1732f5da581a7e5af3dce3363bee9e7cf5f33ee0836",
+          "seed789": "sha256:8a053010bd0c72df047eab67395c698df62a0010e1701f44d3d4b44066b9582f",
+          "seed1024": "sha256:7522bf0486af9965bd525bd751309be38ae5e454476aa52974048562fd9b2232"
+        },
+        "hyperparameters": {
+          "num_leaves": 63,
+          "learning_rate": 0.05,
+          "n_estimators": 500,
+          "seeds": [42, 123, 456, 789, 1024]
+        },
+        "ingredient": "m2_feature_extraction"
+      }
+    }
+  ]
+}

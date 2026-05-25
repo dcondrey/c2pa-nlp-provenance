@@ -1,0 +1,27 @@
+{
+  "claim_generator": "WritersLogic/c2patool",
+  "assertions": [
+    {
+      "label": "c2pa.actions",
+      "data": {
+        "actions": [
+          {
+            "action": "c2pa.created",
+            "softwareAgent": "Claude Opus 4.6 + Claude Sonnet 4.6 + LightGBM ensemble",
+            "when": "2026-05-18T00:00:00Z",
+            "description": "Opus-Sonnet agreement with LightGBM tiebreaker on test set"
+          }
+        ]
+      }
+    },
+    {
+      "label": "org.writerslogic.experiment.inference",
+      "data": {
+        "predictions_hash_s1": "sha256:fba7d9cfdfe64d4d31f0c951106ff2cfc8d56f8551fd7229365796880bfd6bd7",
+        "predictions_hash_s2": "sha256:4f981ad92e1d1eb8364ff019c825d1d263898f6a574e4c9cdd569008ef142241",
+        "system": "Opus-Sonnet agreement + LightGBM tiebreaker (S1); Multi-signal union (S2)",
+        "ingredient": "m3_model_training"
+      }
+    }
+  ]
+}
