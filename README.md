@@ -1,14 +1,16 @@
 <!-- repo-header:start -->
-<img src="https://github.com/dcondrey.png?size=160" alt="C2PA Content Credential Provenance Chains for NLP Experiments logo" width="120" align="left">
+<h3 align="center">C2PA Content Credential Provenance Chains for NLP Experiments</h3>
 
-<h1>C2PA Content Credential Provenance Chains for NLP Experiments</h1>
+<p align="center"><strong>C2PA content credential provenance chains for reproducible NLP experiments</strong></p>
 
-<p><strong>C2PA content credential provenance chains for reproducible NLP experiments</strong></p>
-
-<br clear="left">
-
-[![Best Practices Evidence](https://img.shields.io/badge/best%20practices-evidence%20reviewed-6a4c93?style=flat-square&labelColor=20232a)](.bestpractices.json) [![C2PA](https://img.shields.io/badge/standard-C2PA%20related-6a4c93?style=flat-square&labelColor=20232a)](https://c2pa.org/) [![GitHub Sponsors](https://img.shields.io/badge/GitHub%20Sponsors-Sponsor-EA4AAA?style=flat-square&labelColor=20232a)](https://github.com/sponsors/dcondrey)
+<p align="center">
+  <a href=".bestpractices.json"><img src="https://img.shields.io/badge/best%20practices-evidence%20reviewed-6a4c93?style=flat-square&labelColor=20232a" alt="Best Practices Evidence"></a>
+  <a href="https://c2pa.org/"><img src="https://img.shields.io/badge/standard-C2PA%20related-6a4c93?style=flat-square&labelColor=20232a" alt="C2PA"></a>
+  <a href="https://github.com/sponsors/dcondrey"><img src="https://img.shields.io/badge/GitHub%20Sponsors-Sponsor-EA4AAA?style=flat-square&labelColor=20232a" alt="GitHub Sponsors"></a>
+</p>
 <!-- repo-header:end -->
+
+---
 
 > **Content Authenticity for Reproducible NLP: Provenance Chains as Experimental Infrastructure**
 > David Condrey, WritersLogic Inc. CLEF 2026.
